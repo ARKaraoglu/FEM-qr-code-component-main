@@ -12,37 +12,64 @@
             href="./images/favicon-32x32.png"
         />
 
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Outfit"
+        />
         <title>Frontend Mentor | QR code component</title>
 
         <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
         <style>
             html {
                 width: 1440px;
+                height: 800px;
+
                 margin: 0 auto;
             }
             body {
                 background-color: hsl(212, 45%, 89%);
                 height: 100%;
+                text-align: center;
             }
             .container {
                 /* max-width: 300px;
                 margin: 0 auto; */
                 display: grid;
                 grid-template-columns: 1fr;
-                /* align-content: center;
-                text-align: center;
-                width: 300px;
+                align-content: center;
+                margin: 0 auto;
+                width: 250px;
                 height: 400px;
-                height: 100%; */
-                margin: 0;
+                height: 100%;
+                
             }
             .container img {
-                width: 200px;
-                height: 200px;
+                width: 250px;
+                height: 250px;
                 border-radius: 10px;
             }
             .grid {
                 background-color: white;
+                border-radius: 18px;
+                padding: 15px;
+            }
+            .text_container{
+                padding: 10px;
+            }
+            .text {
+                font-family: "Outfit";
+            }
+            p{
+                font-size: 15px;
+            }
+            .bold_text {
+                font-weight: 700;
+                /* padding-top: 10px; */
+                font-size: 20px;
+            }
+            .regular_text {
+                font-weight: 400;
+                color: gray;
             }
             /* .attribution {
                 font-size: 11px;
@@ -57,11 +84,16 @@
         <div class="container">
             <div class="grid">
                 <img src="./images/image-qr-code.png" alt="QR Code Image" />
-                <div>
-                    Improve your front-end skills by building projects Scan the
-                    QR code to visit Frontend Mentor and take your coding skills
-                    to the next level
+                <div class="text_container">
+                    <div class="text bold_text">
+                        Improve your front-end skills by building projects
+                    </div>
+                    <p class="text regular_text">
+                        Scan the QR code to visit Frontend Mentor and take your
+                        coding skills to the next level
+                    </div>
                 </div>
+                
             </div>
         </div>
         <!-- 
