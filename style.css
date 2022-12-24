@@ -5,13 +5,3 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-inline: auto;
-}
-
-.qr-container {
-    display: flex;
-}
