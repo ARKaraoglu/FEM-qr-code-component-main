@@ -1,18 +1,21 @@
 html {
-    width: 1440px;
-    height: 800px;
+    min-height: 100vh;
 
-    margin: 0 auto;
+    margin-inline: auto;
 }
 body {
     background-color: hsl(212, 45%, 89%);
     height: 100%;
     text-align: center;
 }
+main {
+    min-height: 100vh;
+}
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    /* grid-template-columns: 1fr; */
     align-content: center;
+    justify-content: center;
     margin: 0 auto;
     width: 250px;
     height: 400px;
