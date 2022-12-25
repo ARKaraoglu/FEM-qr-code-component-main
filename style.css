@@ -21,6 +21,10 @@ body {
     background-color: white;
     padding: 1em;
     border-radius: 1rem;
+    transition: 0.2s;
+}
+.container:hover {
+    box-shadow: 0em 0em 1em 0.1em rgba(0, 0, 0, 0.2);
 }
 .qrcode-image {
     max-width: 19rem;
@@ -34,7 +38,7 @@ p {
 }
 .bold-text {
     font-weight: 700;
-    padding: 0.5em 0em 0em 0.5em;
+    padding: 0.5em 0.25em 0em 0.25em;
     font-size: 1.5625rem; /* 25px */
     color: hsl(218, 44%, 22%);
 }
@@ -46,12 +50,17 @@ p {
 }
 
 .attribution-container {
-    padding-top: 1em;
+    padding-top: 0.5rem;
 }
 .attribution {
-    font-size: 0.9375em; /* 15px */
+    font-size: 0.7rem; /* 15px */
     text-align: center;
 }
 .attribution a {
     color: hsl(218, 44%, 22%);
+    transition: 0.5s;
+}
+
+.attribution a:hover {
+    color: red;
 }
